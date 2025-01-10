@@ -12,6 +12,9 @@
 
     /* Shared style  */
 
+.text-center{
+    text-align: center;
+}    
 .text-primary{
     color: #FD6E0A;
 }
@@ -112,15 +115,20 @@
 
   /* main styles */
   main{
-    max-width: 1340px;
+    max-width: 1280px;
     margin: 0 auto;
   }
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+
   /* About Styles */
+
   .about{
     text-align: center;
     border-radius: 10px;
     padding: 130px 150px;
-    margin: 130px;
   }
   .about-items{
     display: flex;
@@ -130,4 +138,19 @@
   }
   .item-description{
     font-weight: 600;
+  }
+
+  /* What I do section */
+  .skill-container{
+    display: flex;
+    gap: 25px;
+  }
+  .skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
+  .section-description{
+    margin-top: 30px;
+    margin-bottom: 50px;
   }

@@ -15,6 +15,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .dark-1{
     color: #181818;
 }
@@ -34,11 +37,21 @@
     border: none;
     cursor: pointer;
 }
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 17px;
+    font-weight: normal;
+}
 
     /* Header area */
     .header{
-        background-color: #FFF8F3;
         background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: top left, right bottom;
+        background-size: auto;
     }
 
    /* Nav section styling */
@@ -90,9 +103,31 @@
     margin-bottom: 20px;
   }
   .banner-description{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
   }
   .btn-1{
     margin: 30px 30px 0px 0px;
+  }
+
+  /* main styles */
+  main{
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+  /* About Styles */
+  .about{
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 18px;
+  }
+  .item-description{
+    font-weight: 600;
   }
